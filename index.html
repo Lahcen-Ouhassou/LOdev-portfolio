@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vCard - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/2188.jpg"
+              alt="Lahcen Ouhassou"
+              width="80"
+              class="namee"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Lahcen Ouhassou">Lahcen Ouhassou</h1>
+
+            <p class="title">
+              Fachinformatiker <br />
+              für Anwendungsentwicklung
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">EMail</p>
+
+                <a href="mailto:lahcenouhassou18@gmail.com" class="contact-link"
+                  >lahcenouhassou18@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Telefonnummer</p>
+
+                <a href="tel:+212 691 11 57 37" class="contact-link"
+                  >+212 691 11 57 37</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Geburtsdatum</p>
+
+                <time datetime="2003-08-21">August 21 , 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Anschrift</p>
+
+                <address>Str. Hay Salam Drarga, Agadir, Marokko</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/lahcen-ouhassou-b99457255/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/Lahcen-Ouhassou"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>profil</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>karriere</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>kontakt</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="profil">
+          <header>
+            <h2 class="h2 article-title">Über mich</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Ich Bildung & Praxisn Fachinformatiker für Anwendungsentwicklung
+              aus Agadir, Marokko. Mit Leidenschaft arbeite ich im Bereich
+              Webentwicklung und Softwareentwicklung.
+            </p>
+
+            <p>
+              Ich genieße es, komplexe Probleme in einfache, funktionale und
+              benutzerfreundliche Lösungen umzuwandeln. Mein Ziel ist es,
+              innovative digitale Lösungen zu entwickeln, moderne Webseiten zu
+              gestalten und meine Fähigkeiten ständig weiterzuentwickeln.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Fähigkeiten</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">SPRACHEN UND FRAMEWORKS</h4>
+
+                  <p class="service-item-text" style="color: #84a98c">
+                    HTML5, CSS3, Bootstrap, JavaScript, PHP , C
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">SYSTEMMODELLIERUNG</h4>
+
+                  <p class="service-item-text" style="color: #84a98c">
+                    UML, MERISE
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">DATENBANKEN</h4>
+
+                  <p class="service-item-text" style="color: #84a98c">
+                    SQL Server, MySQL
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">TOOLS</h4>
+
+                  <p class="service-item-text" style="color: #84a98c">
+                    Git, Github, VScode, Canva, Microsoft Office
+                    (Word,Excel,PowerPoint)
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 Zertifikate-title">Zertifikate</h3>
+
+            <ul class="Zertifikate-list has-scrollbar">
+              <li class="Zertifikate-item">
+                <div class="content-card" data-Zertifikate-item>
+                  <h4 class="h4 Zertifikate-title">HTML and CSS in depth</h4>
+
+                  <div class="Zertifikate-text" data-Zertifikate-text>
+                    <p style="color: #84a98c">
+                      META Okt-2023 Zertifikat Nr. DHC6M4UY49Q6
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="Zertifikate-item">
+                <div class="content-card" data-Zertifikate-item>
+                  <h4 class="h4 Zertifikate-title">
+                    Introduction to Git and GitHub
+                  </h4>
+
+                  <div class="Zertifikate-text" data-Zertifikate-text>
+                    <p
+                      style="
+                        color: #84a98c;
+                        /* background-color: #84a98c; */
+                        /* color: #84a98c; */
+                      "
+                    >
+                      GOOGLE Dez-2023 Zertifikat Nr. Q9US7FZHGCZN
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="Zertifikate-item">
+                <div class="content-card" data-Zertifikate-item>
+                  <h4 class="h4 Zertifikate-title">SQL</h4>
+
+                  <div class="Zertifikate-text" data-Zertifikate-text>
+                    <p
+                      style="
+                        color: #84a98c;
+                        /* background-color: #84a98c; */
+                        /* color: #84a98c; */
+                      "
+                    >
+                      365DataScience Nov-2024 Zertifikat Nr. CC-F80BEA2DA1
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="Zertifikate-item">
+                <div class="content-card" data-Zertifikate-item>
+                  <h4 class="h4 Zertifikate-title">
+                    Front End Development Libraries
+                  </h4>
+
+                  <div class="Zertifikate-text" data-Zertifikate-text>
+                    <p
+                      style="
+                        color: #84a98c;
+                        /* background-color: #84a98c; */
+                        /* color: #84a98c; */
+                      "
+                    >
+                      FreeCodeCamp Nov-2024 Zertifikat Nr. fcc592a3f47-5c2c
+                      440a-8381-b58b34ec5a8f
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - zertifikate modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper"></div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title></h4>
+                <time datetime=""></time>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Hobbys</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <ion-icon name="football-outline" class="hobby-icon"></ion-icon>
+              </li>
+
+              <li class="clients-item">
+                <ion-icon name="airplane-outline" class="hobby-icon"></ion-icon>
+              </li>
+
+              <li class="clients-item">
+                <ion-icon
+                  name="code-slash-outline"
+                  class="hobby-icon"
+                ></ion-icon>
+              </li>
+
+              <li class="clients-item">
+                <ion-icon name="barbell-outline" class="hobby-icon"></ion-icon>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="Bildung & Praxis" data-page="karriere">
+          <header>
+            <h2 class="h2 article-title">Meine Laufbahn</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Bildungsweg</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Französische Schule für technische Bildung || AGADIR
+                </h4>
+
+                <span>2022 — 2024</span>
+
+                <p class="timeline-text">
+                  Spezialisierter Techniker in der IT-Entwicklung.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Recht in arabischer Sprache
+                </h4>
+
+                <span>2021 — 2022</span>
+
+                <p class="timeline-text">
+                  Ibn Zohr Universität von Agadir || AGADIR
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Abitur in Literatur und Geisteswissenschaften
+                </h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  Ouadi Sakia AL Hamra Gymnasium || ES-SMARA
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Praktische Erfahrung</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Praktikum im Bereich Webentwicklung bei "Les Huileries du
+                  Souss Belhassan", AGADIR
+                </h4>
+
+                <span>4/2025 — 6/2025</span>
+
+                <p class="timeline-text">
+                  -Planung und Gestaltung von Website-Layouts mit Canva <br />
+                  -Entwicklung dynamischer Webseiten mit PHP und MySQL (lokale
+                  Umgebung mit XAMPP) <br />
+                  -Umsetzung interaktiver Animationen mit AOS <br />
+                  -Integration moderner Benachrichtigungen mit SweetAlert <br />
+                  -Anwendung von HTML5, CSS3, Bootstrap für responsives Design
+                  <br />
+                  -Erweiterung von Webseiten-Funktionen mit JavaScript
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Praktikum im Bereich Front-End Entwicklung bei "CodingArt",
+                  AGADIR
+                </h4>
+
+                <span>3/2022 — 8/2023</span>
+
+                <p class="timeline-text">
+                  -Mitarbeit an der Erstellung einer Website-Oberfläche während
+                  des Praktikums <br />
+                  -Strukturierung der Seiten mit HTML5 <br />
+                  -Gestaltung eines attraktiven und responsiven Designs mit CSS3
+                  <br />
+                  -Integration von Bootstrap für plattformübergreifende
+                  Kompatibilität <br />
+                  -Hinzufügen interaktiver Funktionen mit JavaScript
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li> -->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Kategorie auswählen
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <!-- <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li> -->
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">mhy prj</h3>
+
+                  <p class="project-category">html/css/js/php</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">mhy prj</h3>
+
+                  <p class="project-category">html/css/js/php</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">mhy prj</h3>
+
+                  <p class="project-category">html/css/js/php</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">mhy prj</h3>
+
+                  <p class="project-category">html/css/js/php</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">mhy prj</h3>
+
+                  <p class="project-category">html/css/js/php</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">mhy prj</h3>
+
+                  <p class="project-category">html/css/js/php</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">my prj</h3>
+
+                  <p class="project-category">html/css/js/php</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="kontakt">
+          <header>
+            <h2 class="h2 article-title">Kontaktt</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps?q=Agadir,+Morocco&hl=de&output=embed"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Kontaktformular</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Vollständiger Name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="E-Mail"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Ihre Nachricht"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Nachricht senden</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
