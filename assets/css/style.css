@@ -346,10 +346,9 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+/* .avatar-box {
   background: var(--bg-gradient-onyx);
-  /* border-radius: 20px; */
-}
+} */
 
 .linkedin {
   color: white !important;
@@ -1282,7 +1281,6 @@ textarea.form-input::-webkit-resizer {
   .info-content .title {
     padding: 5px 18px;
   }
-
   .info_more-btn {
     top: -30px;
     right: -30px;
@@ -1398,8 +1396,6 @@ textarea.form-input::-webkit-resizer {
     -webkit-line-clamp: 2;
   }
 
-  /* testimonials modal */
-
   .modal-container {
     padding: 20px;
   }
@@ -1433,8 +1429,6 @@ textarea.form-input::-webkit-resizer {
     flex-grow: 1;
     width: 35px;
   }
-
-  /* clients */
 
   .clients-list {
     gap: 50px;
@@ -1691,13 +1685,9 @@ textarea.form-input::-webkit-resizer {
     gap: 20px 25px;
   }
 
-  /* testimonials */
-
   .Zertifikate-item {
     min-width: calc(50% - 15px);
   }
-
-  /* clients */
 
   .clients-item {
     min-width: calc(25% - 38px);
