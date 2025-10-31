@@ -21,10 +21,6 @@ My mission is to craft user-friendly and creative web solutions that make a diff
 
 ---
 
-## 🌐 Live Demo
-👉 [View Portfolio](https://lahcen-ouhassou.github.io/LOdev-portfolio)
-
----
 
 ## 📫 Contact Me
 - 💻 GitHub: [Lahcen-Ouhassou](https://github.com/Lahcen-Ouhassou)  
