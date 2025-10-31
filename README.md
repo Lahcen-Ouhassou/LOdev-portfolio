@@ -25,7 +25,7 @@ My mission is to craft user-friendly and creative web solutions that make a diff
 ## 📫 Contact Me
 - 💻 GitHub: [Lahcen-Ouhassou](https://github.com/Lahcen-Ouhassou)  
 - 🔗 LinkedIn: [Lahcen Ouhassou](https://www.linkedin.com/in/lahcen-ouhassou-b99457255/)  
-- 📧 Email: [lahcenouhassou18@gmail.com]
+- 📧 Email: (lahcenouhassou18@gmail.com)
 
 ---
 
