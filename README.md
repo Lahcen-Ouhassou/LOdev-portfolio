@@ -13,13 +13,6 @@ My mission is to craft user-friendly and creative web solutions that make a diff
 
 ---
 
-## 🛠️ Technologies & Tools
-- HTML5, CSS3, JavaScript  
-- Node.js, Express.js  
-- MongoDB, REST APIs  
-- Git & GitHub  
-
----
 
 
 ## 📫 Contact Me
