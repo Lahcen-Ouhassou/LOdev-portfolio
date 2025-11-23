@@ -1,6 +1,6 @@
 "use strict";
 
-// element toggle function 
+// element toggle function
 const elementToggleFunc = function (elem) {
   elem.classList.toggle("active");
 };
@@ -137,3 +137,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+const carousels = document.querySelectorAll(".carousel");
+
+carousels.forEach((carousel) => {
+  const imgs = carousel.querySelectorAll("img");
+  let index = 0;
+
+  setInterval(() => {
+    imgs[index].classList.remove("active");
+    index = (index + 1) % imgs.length;
+    imgs[index].classList.add("active");
+  }, 3500); // chaque 2.5 secondes kaytbdel
+});
